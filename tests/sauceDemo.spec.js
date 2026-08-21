@@ -32,6 +32,8 @@ test("@Regression End to End flow",async({page})=>{
    await page.waitForTimeout(3000);
    console.log("Amruta write Tc1");
 
+   console.log("Rupali write TC2");
+
 
 
 
