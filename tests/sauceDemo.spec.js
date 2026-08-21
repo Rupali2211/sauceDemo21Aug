@@ -33,6 +33,7 @@ test("@Regression End to End flow",async({page})=>{
    console.log("Amruta write Tc1");
 
    console.log("Rupali write TC2");
+   console.log("Amruta Write TC 3");
 
 
 
