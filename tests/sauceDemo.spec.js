@@ -30,6 +30,7 @@ test("@Regression End to End flow",async({page})=>{
    await page.locator("#shopping_cart_container").click();
 
    await page.waitForTimeout(3000);
+   console.log("Amruta write Tc1");
 
 
 
