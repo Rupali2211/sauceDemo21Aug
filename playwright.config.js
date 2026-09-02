@@ -2,6 +2,10 @@ import {defineConfig} from '@playwright/test';
 import env from './env/env.config.js';
 export default defineConfig({
     testDir:'./tests',
+     reporter: [
+    ['list'],
+    ['allure-playwright']
+  ],
     use:
     {   baseURL:env.BASE_URL,
         headless:false
